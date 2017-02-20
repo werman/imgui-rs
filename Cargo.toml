@@ -13,5 +13,10 @@ categories = ["gui", "api-bindings"]
 imgui-sys = { path = "imgui-sys" }
 
 [dev-dependencies]
+cgmath = "0.7"
+gfx = "0.14"
+gfx_window_glutin = "0.14"
 glium = "0.16"
+glutin = "0.7"
+imgui-gfx-renderer = { path = "imgui-gfx-renderer" }
 imgui-glium-renderer = { path = "imgui-glium-renderer" }
