@@ -5,7 +5,8 @@ authors = ["Joonas Javanainen <joonas.javanainen@gmail.com>"]
 description = "gfx renderer for imgui-rs"
 homepage = "https://github.com/gekkio/imgui-rs"
 repository = "https://github.com/gekkio/imgui-rs"
-license = "MIT"
+license = "MIT OR Apache-2.0"
+categories = ["gui", "rendering"]
 
 [dependencies]
 gfx = "0.14"
