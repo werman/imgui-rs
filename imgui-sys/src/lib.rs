@@ -6,6 +6,10 @@ extern crate bitflags;
 #[cfg(feature = "glium")]
 extern crate glium;
 
+#[cfg(feature = "gfx")]
+#[macro_use]
+extern crate gfx;
+
 use std::convert::From;
 use std::mem;
 use std::os::raw::{c_char, c_float, c_int, c_short, c_uchar, c_uint, c_ushort, c_void};
@@ -13,6 +17,9 @@ use std::slice;
 
 #[cfg(feature = "glium")]
 mod glium_support;
+
+#[cfg(feature = "gfx")]
+mod gfx_support;
 
 /// ImGui context (opaque)
 pub enum ImGuiContext { }

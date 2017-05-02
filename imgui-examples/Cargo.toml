@@ -9,7 +9,12 @@ license = "MIT/Apache-2.0"
 publish = false
 
 [dev-dependencies]
+cgmath = "0.7"
+gfx = "0.15"
+gfx_window_glutin = "0.15"
+glutin = "0.7"
 glium = { version = "0.16", default-features = true }
 imgui = { version = "0.0.14-pre", path = "../" }
 imgui-glium-renderer = { version = "0.0.14-pre", path = "../imgui-glium-renderer" }
+imgui-gfx-renderer = { version = "0.0.14-pre", path = "../imgui-gfx-renderer" }
 imgui-sys = { version = "0.0.14-pre", path = "../imgui-sys", features = ["glium"] }

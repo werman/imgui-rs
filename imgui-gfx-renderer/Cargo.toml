@@ -1,0 +1,17 @@
+[package]
+name = "imgui-gfx-renderer"
+version = "0.0.14-pre"
+authors = ["Joonas Javanainen <joonas.javanainen@gmail.com>", "imgui-rs contributors"]
+description = "gfx renderer for imgui-rs"
+homepage = "https://github.com/gekkio/imgui-rs"
+repository = "https://github.com/gekkio/imgui-rs"
+license = "MIT/Apache-2.0"
+categories = ["gui", "rendering"]
+
+[dependencies]
+cgmath = "0.7"
+gfx = "0.15"
+gfx_window_glutin = "0.15"
+glutin = "0.7"
+imgui = { path = "../" }
+imgui-sys = { path = "../imgui-sys", features = ["gfx"] }
